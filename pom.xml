@@ -10,7 +10,7 @@
         <developer>
             <id>gmark1337</id>
             <name>Gados László Márk</name>
-            <email>gmark1337@inf.unideb.hu</email>
+            <email>gadosmark7@gmail.com</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
@@ -26,6 +26,12 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-gson</artifactId>
             <version>13.5</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.17.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
